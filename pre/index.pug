@@ -1,0 +1,26 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		link(rel="stylesheet", href="style.css")
+		title Modal
+	body 
+		section 
+			.contenedor-textos
+				h1 Modal
+				p Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ut cumque molestiae sint quis at ad neque quo nam labore minus magni deserunt eveniet sequi quae qui fuga, doloribus eligendi!
+				.cta
+					a(href="#") Ver modal
+			img#pajaros(src="pajaros.png", alt="")
+
+		.modal-container
+			.modal.modal-close
+				p.close X
+				img(src="pajarosModal.png", alt="")
+				.modal-textos 
+					h2 Hola, soy otro flamingo.
+					p Lorem ipsum dolor sit amet, consectetur adipisicing.
+
+	script(src="script.js") 
